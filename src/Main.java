@@ -45,7 +45,7 @@ public class Main {
             System.out.println("Потребуется дней: " + (deliveryTime + 2));
         }
         System.out.println();
-        System.out.println("Задание № 5");
+        System.out.println("Задание №5");
         int monthNumber = 12;
         switch (monthNumber) {
             case 1:
