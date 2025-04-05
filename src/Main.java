@@ -25,8 +25,7 @@ public class Main {
         System.out.println();
         System.out.println("Задание №3");
         int year = 2024;
-        if (year >= 1584) {
-        } else if ((year % 4 == 0 && year % 100 != 0) || year % 400 == 0) {
+        if (year >= 1584 && ((year % 4 == 0 && year % 100 != 0) || year % 400 == 0)) {
             System.out.println(year + " год является високосным");
         } else {
             System.out.println(year + " год не является високосным");
@@ -48,42 +47,25 @@ public class Main {
         System.out.println("Задание №5");
         int monthNumber = 12;
         switch (monthNumber) {
+            case 12:
             case 1:
-                System.out.println("зима");
-                break;
             case 2:
-                ;
                 System.out.println("зима");
                 break;
             case 3:
-                System.out.println("весна");
-                break;
             case 4:
-                System.out.println("весна");
-                break;
             case 5:
                 System.out.println("весна");
                 break;
             case 6:
-                System.out.println("лето");
-                break;
             case 7:
-                System.out.println("лето");
-                break;
             case 8:
                 System.out.println("лето");
                 break;
             case 9:
-                System.out.println("осень");
-                break;
             case 10:
-                System.out.println("осень");
-                break;
             case 11:
                 System.out.println("осень");
-                break;
-            case 12:
-                System.out.println("зима");
                 break;
             default:
                 System.out.println("нет такого месяца");
